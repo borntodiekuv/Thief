@@ -65,8 +65,4 @@ sect1:AddToggle("Auto Rob NPCs", false, function(d)
         sect2:AddSlider("Walkspeed", 16, 16, 200, false, function(warthog)
             plr.Character.Humanoid.WalkSpeed = warthog
             end)
-        
-            sect2:AddSlider("Jump Power", 50, 50, 200, false, function(warthog)
-                plr.Character.Humanoid.JumpPower = warthog
-                end)
-                
+
